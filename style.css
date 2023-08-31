@@ -2,9 +2,10 @@
 
 :root {
 
-    --color-cafeOscuro: rgb(126, 56, 56) ;
+    --color-cafeOscuro: rgb(137, 80, 80) ;
     --color-cafeClaro: rgb(147, 122, 122);
     --color-blanco: #fffdfc;
+    --color-fondo-gris: #e1e2e6;
 
 
 
@@ -121,5 +122,102 @@ body{
     background-color: var(--color-cafeOscuro);
 }
 
+.coffee{
+    padding: 100px 0 ;
+    background-color: var(--color-fondo-gris) ;
+    position: relative;
+}
 
+.coffeeContent {
+    text-align: center;    
+}
 
+.coffeeContent h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: var(--color-cafeOscuro);
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: var(--color-cafeOscuro);
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.coffeeGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.coffee-1 {
+    padding: 25px;
+}
+
+.coffee-1 img {
+    width: 200px;    
+}
+
+.coffeeImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coffee-1 h3{
+    color: var(--color-cafeOscuro);
+    font-size: 18px;
+    margin-bottom: 15px;    
+}
+
+.services {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0; 
+}
+
+.servicesContent {
+    text-align: center;
+}
+
+.servicesContent h1 {
+    font-size: 30px;
+    line-height: 30px;
+    color: var(--color-cafeClaro);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.servicesContent p {
+    font-size: 16px;
+    color: var(--color-blanco);
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.servicesGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.services-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    color: var(--color-cafeClaro);
+    font-size: 14px;
+}

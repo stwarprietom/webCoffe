@@ -288,3 +288,147 @@ p{
     color: var(--color-cafeOscuro);
 }
 
+.footer {
+    padding: 100px 0;
+    background-color: var(--color-cafeClaro);
+}
+
+.footerContent {
+    display: flex;  
+    justify-content: space-between;
+}
+
+.link h3 {
+
+    font-size: 18px;
+    color: var(--color-blanco);
+    margin-bottom: 15px;
+}
+
+
+.link a {
+    font-size: 16px;
+    color: var(--color-blanco);
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media(max-width:900px){
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--color-cafeOscuro);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .headerContent {
+        padding: 100px 30px;
+    }
+
+    .headerContent p {
+        padding: 0;
+    }
+
+    .coffee {
+        padding: 30px;
+    }
+
+    .coffeeContent h2{
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .coffeeGroup {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .coffee img {
+        display: none;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .servicesContent p{
+        padding: 0;
+        }
+    
+    .servicesGroup {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+            flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blogContent {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+
+        padding: 30px;
+
+    }
+
+    .footerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+            
+}
+
